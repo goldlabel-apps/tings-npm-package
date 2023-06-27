@@ -1,0 +1,1 @@
+export { Tings } from "./Tings";
