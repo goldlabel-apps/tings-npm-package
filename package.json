@@ -1,12 +1,13 @@
 {
-  "name": "@listingslab/weather",
-  "version": "1.0.2",
-  "description": "Stormglass weather app",
+  "name": "@listingslab/tings",
+  "version": "0.0.1",
+  "description": "ALL the tings",
   "main": "./dist/index.js",
   "types": "./dist/index.d.js",
   "scripts": {
     "clean": "rm -rf dist",
     "pub:n": "clear && npm publish --access public",
+    "start": "echo \"Start What?\" && exit 0",
     "test": "echo \"LGTM\" && exit 0",
     "build": "npm run clean && tsc && cp package.json README.md ./dist"
   },
@@ -18,23 +19,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/listingslab-packages/weather"
+    "url": "https://github.com/listingslab-packages/tings"
   },
   "author": {
     "name": "listingslab",
-    "url": "https://listingslab.com"
+    "url": "https://listingslab.com/tings"
   },
   "license": "MIT",
   "keywords": [
-    "weather",
     "react",
-    "npm",
+    "node",
     "package",
     "typescript"
-  ],
-  "dependencies": {
-    "@emotion/react": "^11.11.0",
-    "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.13.1"
-  }
+  ]
 }
