@@ -1,0 +1,40 @@
+{
+  "name": "@listingslab/weather",
+  "version": "1.0.2",
+  "description": "Stormglass weather app",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "pub:n": "clear && npm publish --access public",
+    "test": "echo \"LGTM\" && exit 0",
+    "build": "npm run clean && tsc && cp package.json README.md ./dist"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.14",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/listingslab-packages/weather"
+  },
+  "author": {
+    "name": "listingslab",
+    "url": "https://listingslab.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "weather",
+    "react",
+    "npm",
+    "package",
+    "typescript"
+  ],
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.1"
+  }
+}
