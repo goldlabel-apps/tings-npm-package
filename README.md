@@ -1,10 +1,5 @@
-> Henry Ford: "If I'd listened to my customers I'd have given them a faster horse"
-
-#### What you know as Artificial Intelligence isn't.
-
-Really, it's A.M. 
-
-## Automated Machines
+## What you know as Artificial Intelligence really isn't.
+## It's Automated Machines
 
 Imagine you're Marvin. Brain the size of a planet but not depressed. You're an AM. You have one job, but it could be anything. 
 
